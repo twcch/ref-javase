@@ -1,4 +1,4 @@
-package com.twcch.course.constant;
+package com.twcch.course;
 
 public class Constant {
 

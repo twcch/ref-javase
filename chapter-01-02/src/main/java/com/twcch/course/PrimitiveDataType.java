@@ -1,4 +1,4 @@
-package com.twcch.course.variable;
+package com.twcch.course;
 
 public class PrimitiveDataType {
 
