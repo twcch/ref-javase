@@ -2,19 +2,19 @@ package com.twcch.course.basic.primitivedatatype;
 
 public class PromotionAndCasting {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        /*
-         * byte => short, char => int => long => float => double
-         * boolean
-         * promotion: =>, casting: <=
-         */
-        short a = 10;
-        int b = a; // promotion
-        byte c = (byte) b; // casting
+		/*
+		 * byte => short, char => int => long => float => double
+		 * boolean
+		 * promotion: =>, casting: <=
+		 */
+		short a = 10;
+		int b = a; // promotion
+		byte c = (byte) b; // casting
 
-        System.out.println("c: " + c);
+		System.out.println("c: " + c);
 
-    }
+	}
 
 }
