@@ -1,4 +1,4 @@
-package com.twcch.course.basic.variable;
+package com.twcch.course.basic.wapperclass;
 
 public class Boxing {
 
