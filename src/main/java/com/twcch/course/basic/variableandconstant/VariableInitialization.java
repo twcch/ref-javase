@@ -1,6 +1,6 @@
 package com.twcch.course.basic.variableandconstant;
 
-public class Initialization {
+public class VariableInitialization {
 
     public static void main(String[] args) {
 
