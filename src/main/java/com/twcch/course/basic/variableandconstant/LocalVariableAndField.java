@@ -1,4 +1,4 @@
-package com.twcch.course.basic.primitivedatatype;
+package com.twcch.course.basic.variableandconstant;
 
 public class LocalVariableAndField {
 
