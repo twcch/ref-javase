@@ -8,7 +8,7 @@ public class IfStatement {
 		int b = 5;
 		
 		// 循序結構 sequence
-		if (a > 10) {
+		if (a > 10) { // 單項選擇
 			System.out.println("a > 10");
 		}
 		
@@ -17,7 +17,13 @@ public class IfStatement {
 		}
 		
 		// 選擇結構 section
-		if (a > 10) {
+		if (a > 10) { // 雙向選擇擇一
+			System.out.println("a > 10");
+		} else {
+			System.out.println("else");
+		}
+		
+		if (a > 10) { // 多重選擇擇一
 			System.out.println("a > 10");
 		} else if (b > 10) {
 			System.out.println("b > 10");
