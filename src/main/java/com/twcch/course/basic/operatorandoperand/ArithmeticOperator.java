@@ -7,7 +7,7 @@ public class ArithmeticOperator {
 		int a = 10;
 		int b = 3;
 		
-		// 算術運算子
+		// arithmetic operator
 		System.out.printf("a + b = %d\n", a + b);
 		System.out.printf("a - b = %d\n", a - b);
 		System.out.printf("a * b = %d\n", a * b);

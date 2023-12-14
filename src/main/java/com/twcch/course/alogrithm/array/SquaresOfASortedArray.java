@@ -16,13 +16,11 @@ public class SquaresOfASortedArray {
 	}
 
 	public int[] sortedSquares(int[] nums) {
-
-		// 陣列元素次方
+		
 		for (int i = 0; i < nums.length - 1; i++) {
 			nums[i] = (int) Math.pow(nums[i], 2);
 		}
-
-		// 陣列排序
+		
 		Arrays.sort(nums);
 
 		return nums;

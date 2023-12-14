@@ -7,7 +7,7 @@ public class RelationalOperator {
 		int a = 10;
 		int b = 3;
 		
-		// 關係運算子
+		// relational operator
 		System.out.printf("a > b: %b\n", a > b);
 		System.out.printf("a < b: %b\n", a < b);
 		System.out.printf("a >= b: %b\n", a >= b);

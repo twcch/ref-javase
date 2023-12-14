@@ -7,7 +7,7 @@ public class ConditionalOperator {
 		int a = 10;
 		int b = 3;
 		
-		// 條件運算子
+		// conditional operator
 		System.out.printf("a > b && a < b: %b \n", a > b && a < b);
 		System.out.printf("a > b || a < b: %b \n", a > b || a < b);
 		System.out.printf("!(a > b || a < b): %b \n", !(a > b || a < b));

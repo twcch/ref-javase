@@ -7,7 +7,7 @@ public class BitwiseOperator {
 		int a = 10;
 		int b = 3;
 		
-		// 位元運算子
+		// bitwise operator
 		System.out.printf("a > b & a < b: %b \n", a > b & a < b);
 		System.out.printf("a > b | a < b: %b \n", a > b | a < b);
 		System.out.printf("a > b ^ a < b: %b \n", a > b ^ a < b); // 其中一邊為 true 才會是 true，否則為 false

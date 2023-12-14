@@ -7,7 +7,7 @@ public class AssignmentOperator {
 		int a = 10;
 		int b = 3;
 		
-		// 指定運算子
+		// assignment operator
 		System.out.printf("a += b: %d\n", a += b);
 		System.out.printf("a -= b: %d\n", a -= b);
 		System.out.printf("a *= b: %d\n", a *= b);

@@ -6,7 +6,7 @@ public class IncrementAndDecrementOperator {
 		
 		int a = 10;
 		
-		// 遞增遞減操作符
+		// increment and decrement operator
 		System.out.printf("a++ = %d\n", a++);
 		System.out.printf("a-- = %d\n", a--);
 		System.out.printf("++a = %d\n", ++a);
