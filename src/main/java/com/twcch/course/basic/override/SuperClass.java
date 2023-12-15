@@ -20,6 +20,7 @@ public class SuperClass {
 	
 	public void hello() throws RuntimeException {
 		System.out.println("Hello");
+		add(0, 0);
 	}
 	
 }
