@@ -8,7 +8,7 @@ public class Printer {
 		this.count = count;
 	}
 
-	public void print(String msg) {
+	public void print(String msg) throws IllegalArgumentException {
 
 		if (count <= 0) {
 			return;
@@ -18,7 +18,7 @@ public class Printer {
 
 	}
 
-	public void print(String msg, int times) { // overloading
+	void print(String msg, int times) { // overloading
 
 		while (times > 0) {
 			if (count <= 0) {
