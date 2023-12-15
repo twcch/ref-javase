@@ -1,4 +1,4 @@
-package com.twcch.course.basic.method.override;
+package com.twcch.course.basic.override;
 
 public class SuperClass {
 	
