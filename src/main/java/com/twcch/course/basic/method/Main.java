@@ -6,7 +6,7 @@ public class Main {
 		
 		String msg = "Hello Java!";
 		
-		Printer printer = new Printer();
+		Printer printer = new Printer(2);
 		printer.print(msg, 3);
 
 	}
