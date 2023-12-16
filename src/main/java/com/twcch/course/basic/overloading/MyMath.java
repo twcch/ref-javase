@@ -15,4 +15,8 @@ public class MyMath {
 		return x + y + z;
 	}
 	
+	public void add() {
+		System.out.println("add");
+	}
+	
 }
