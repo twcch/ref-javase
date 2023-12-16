@@ -1,4 +1,4 @@
-package com.twcch.course.library.arrays;
+package com.twcch.course.library.arraysclass;
 
 import java.util.Arrays;
 
