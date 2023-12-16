@@ -1,6 +1,6 @@
-package com.twcch.course.basic.other;
+package com.twcch.course.basic.memory;
 
-public class Memory {
+public class Main {
 
 	public static void main(String[] args) {
 		
@@ -14,8 +14,4 @@ public class Memory {
 
 	}
 
-}
-
-record User(int id, String name) {
-	
 }
