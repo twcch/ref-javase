@@ -14,7 +14,7 @@ public class Main {
 		
 		int search = 4;
 		int index = Arrays.binarySearch(arr1, search); // 二分查找法 (需排序後)
-		System.out.println("arr1 search: " + search + ", result index: " + index);
+		System.out.println("arr1 search: " + search + ", result index: " + index); // 當沒有搜尋到時，會回傳一個小於 0 的整數
 		
 		int[] newArr1 = Arrays.copyOf(arr1, 9); // 複製陣列
 		System.out.println("arr1: " + Arrays.toString(arr1));
