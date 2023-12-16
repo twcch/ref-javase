@@ -27,6 +27,4 @@ public class SubClass extends SuperClass {
 		System.out.println("Hello!");
 	}
 	
-	
-	
 }
