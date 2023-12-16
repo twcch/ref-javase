@@ -13,7 +13,7 @@ public class StringMethod {
 		
 		System.out.println("str.charAt(4): " + str.charAt(4)); // 取得 String index 的字元
 		System.out.println("str.substring(1): " + str.substring(1)); // 取得指定 String index 後的所有字元
-		System.out.println("str.substring(1, 5): " + str.substring(1, 8)); // 取得指定 String index 區間的字元
+		System.out.println("str.substring(1, 5): " + str.substring(1, 8)); // 取得指定 String index 區間 (start, end - 1) 的字元
 		
 		String str1 = "Hello";
 		String str2 = "hello";
