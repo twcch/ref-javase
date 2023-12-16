@@ -19,6 +19,7 @@ public class StringMethod {
 		String str2 = "hello";
 		/* 
 		 * compareTo():
+		 * 由左至右比較，依照字元 ASCII 值比較大小
 		 * 1. return =0: 表示兩個字串相等
 		 * 2. return >0: 表示左邊的字串大於右邊的字串
 		 * 3. return <0: 表示左邊的字串小於右邊的字串
