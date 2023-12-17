@@ -22,5 +22,9 @@ public class SuperClass {
 		System.out.println("Hello");
 		add(0, 0);
 	}
+	
+	public static void show() { // 無法被 override
+		System.out.println("Hello");
+	}
 
 }
