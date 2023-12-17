@@ -1,11 +1,11 @@
 package com.twcch.course.basic.overloading;
 
 public class MyMath {
-	
+
 	public int add(int x, int y) {
 		return x + y;
 	}
-	
+
 	/*
 	 * overloading rule:
 	 * 1. 只看方法名稱右邊的傳輸參數
@@ -14,9 +14,9 @@ public class MyMath {
 	public int add(int x, int y, int z) {
 		return x + y + z;
 	}
-	
+
 	public void add() {
 		System.out.println("add");
 	}
-	
+
 }

@@ -1,7 +1,7 @@
 package com.twcch.course.basic.override;
 
 public class SubClass extends SuperClass {
-	
+
 	/* 
 	 * override rule:
 	 * 1. 存取權限修飾子可以放大，不可縮小
@@ -26,5 +26,5 @@ public class SubClass extends SuperClass {
 	public void hello() throws IllegalArgumentException {
 		System.out.println("Hello!");
 	}
-	
+
 }

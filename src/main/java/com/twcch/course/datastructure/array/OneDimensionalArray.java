@@ -17,19 +17,19 @@ public class OneDimensionalArray {
 		arr3[1] = 2;
 		arr3[2] = 3;
 		System.out.println("arr3: " + Arrays.toString(arr3));
-		
+
 		reverse(arr1);
-		
+
 		System.out.println("reverse arr1: " + Arrays.toString(arr1));
-		
+
 	}
-	
+
 	public static void reverse(int[] array) { // mutable
-		
+
 		int start = 0;
 		int end = array.length - 1;
 		int middle = start + (end - start) / 2;
-		
+
 		int temp = 0;
 		while (start < middle) {
 			temp = array[start];
@@ -37,7 +37,7 @@ public class OneDimensionalArray {
 			array[end] = temp;
 			start++;
 		}
-		
+
 	}
 
 }

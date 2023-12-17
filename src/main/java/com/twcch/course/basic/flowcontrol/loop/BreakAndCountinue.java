@@ -10,11 +10,11 @@ public class BreakAndCountinue {
 			if (i == a) {
 				continue; // 中斷本次迭代
 			}
-			
+
 			if (i == 9) {
 				break; // 中斷迴圈
 			}
-			
+
 			System.out.print(i + " ");
 		}
 

@@ -2,18 +2,18 @@ package com.twcch.course.basic.variableandconstant;
 
 public class VariableInitialization {
 
-    public static void main(String[] args) {
+	public static void main(String[] args) {
 
-        int a, b = 2;
-        a = 1;
+		int a, b = 2;
+		a = 1;
 
-        System.out.printf("a = %d, b = %d", a, b);
+		System.out.printf("a = %d, b = %d", a, b);
 
-        final double PI;
-        PI = 3.14;
+		final double PI;
+		PI = 3.14;
 
-        System.out.printf("\nPI = %.2f", PI);
+		System.out.printf("\nPI = %.2f", PI);
 
-    }
+	}
 
 }
