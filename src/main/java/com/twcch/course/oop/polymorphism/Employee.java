@@ -1,11 +1,11 @@
 package com.twcch.course.oop.polymorphism;
 
 public class Employee {
-	
+
 	private int id;
 	private String name;
 	private int salary;
-	
+
 	public Employee(int id, String name, int salary) {
 		this.id = id;
 		this.name = name;
@@ -35,5 +35,5 @@ public class Employee {
 	public void setSalary(int salary) {
 		this.salary = salary;
 	}
-	
+
 }

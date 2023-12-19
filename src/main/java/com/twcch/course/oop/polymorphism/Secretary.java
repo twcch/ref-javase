@@ -35,5 +35,5 @@ public class Secretary extends Employee {
 	public void setSalary(int salary) {
 		super.setSalary(salary);
 	}
-	
+
 }

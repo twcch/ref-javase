@@ -1,11 +1,11 @@
 package com.twcch.course.oop.staticmodify;
 
 public class Info {
-	
+
 	static { // 類別初始化
 		MSG = "Hello Java!";
 	}
-	
+
 	/* 
 	 * static:
 	 * 1. 當類別被初始化後，會儲存在 global 給所有人共用，只有一份
@@ -14,9 +14,9 @@ public class Info {
 	 */
 	public static String MSG;
 	public String MSG_INFO = "ABC";
-	
+
 	private Info() {
-		
+
 	}
-	
+
 }

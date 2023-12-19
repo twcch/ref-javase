@@ -35,5 +35,5 @@ public class Sales extends Employee {
 	public void setSalary(int salary) {
 		super.setSalary(salary);
 	}
-	
+
 }

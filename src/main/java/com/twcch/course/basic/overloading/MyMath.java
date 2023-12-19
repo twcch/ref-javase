@@ -18,11 +18,11 @@ public class MyMath {
 	public void add() {
 		System.out.println("add");
 	}
-	
+
 	public static void add(String msg) {
 		System.out.println(msg);
 	}
-	
+
 	public static void add(String... msg) {
 		System.out.println("default msg");
 	}

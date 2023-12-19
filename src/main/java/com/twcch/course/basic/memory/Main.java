@@ -1,7 +1,7 @@
 package com.twcch.course.basic.memory;
 
 public class Main {
-	
+
 	public static int age = 29; // 儲存在 global
 
 	public static void main(String[] args) {

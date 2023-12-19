@@ -1,11 +1,11 @@
 package com.twcch.course.basic.memory;
 
 public class User {
-	
+
 	public int id;
 	public String name;
 	public static int age;
-	
+
 	public User(int id, String name, int age) {
 		this.id = id;
 		this.name = name;
@@ -27,5 +27,5 @@ public class User {
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 }
