@@ -15,6 +15,9 @@ public class Main {
 				", name: " + emp1[1].getName() + 
 				", salary: " + emp1[1].getSalary());
 		
+		System.out.println(emp1[0] instanceof Employee);
+		System.out.println(emp1[1] instanceof Employee);
+		
 	}
 
 }
