@@ -1,4 +1,4 @@
-package com.twcch.course.application.cloneobject;
+package com.twcch.course.application.cloneableinterface;
 
 public class User implements Cloneable {
 	
