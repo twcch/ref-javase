@@ -1,4 +1,4 @@
-package com.twcch.refjavase.inheritance;
+package com.twcch.refjavase.oop.inheritance;
 
 public class SuperClass { // 預設繼承 Object
 	
